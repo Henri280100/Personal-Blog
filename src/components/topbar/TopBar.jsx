@@ -1,6 +1,6 @@
 import React from "react";
 import "./topbar.css";
-import ME from "../assets/ME.jpg"
+import ME from "../../assets/ME.jpg"
 export default function TopBar() {
   return (
     <div className="top">
@@ -16,6 +16,7 @@ export default function TopBar() {
           <li className="topListItem">HOME</li>
           <li className="topListItem">ABOUT</li>
           <li className="topListItem">CONTACT</li>
+          <li className="topListItem">WRITE</li>
           <li className="topListItem">LOGOUT</li>
         </ul>
       </div>

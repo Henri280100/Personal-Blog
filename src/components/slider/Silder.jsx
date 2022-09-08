@@ -3,9 +3,8 @@ import "./Slider.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Button } from "semantic-ui-react";
-import LeftArrow from "../assets/leftArrow.svg";
-import RightArrow from "../assets/rightArrow.svg";
+import LeftArrow from "../../assets/leftArrow.svg";
+import RightArrow from "../../assets/rightArrow.svg";
 
 export default function Silder({ data }) {
   const responsive = [
