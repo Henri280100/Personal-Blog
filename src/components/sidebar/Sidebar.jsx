@@ -1,5 +1,5 @@
 import React from "react";
-import "./sidebar.css"
+import "./sidebar.css";
 import AboutMe from "../../assets/About_me.jpg";
 
 export default function Sidebar() {
@@ -7,10 +7,7 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <img
-          src={AboutMe}
-          alt=""
-        />
+        <img src={AboutMe} alt="" />
         <p>
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
           amet ex esse.Sunt eu ut nostrud id quis proident.
@@ -28,12 +25,20 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarTitle">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW ME</span>
         <div className="sidebarSocial">
-          <i className="sidebarIcon fab fa-facebook-square"></i>
-          <i className="sidebarIcon fab fa-instagram-square"></i>
-          <i className="sidebarIcon fab fa-pinterest-square"></i>
-          <i className="sidebarIcon fab fa-twitter-square"></i>
+          <a href="https://facebook.com">
+            <i className="sidebarIcon fab fa-facebook-square"></i>
+          </a>
+          <a href="https://linkedin.com">
+            <i className="sidebarIcon fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com">
+            <i className="sidebarIcon fab fa-instagram-square"></i>
+          </a>
+          <a href="https://twitter.com">
+            <i className="sidebarIcon fab fa-twitter-square"></i>
+          </a>
         </div>
       </div>
     </div>

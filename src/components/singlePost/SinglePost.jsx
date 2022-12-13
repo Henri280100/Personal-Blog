@@ -1,10 +1,16 @@
 import React from "react";
 import "./singlePost.css";
 import Motorcycle from "../../assets/Bobber.jpg";
+import { motion } from "framer-motion";
 
 export default function SinglePost() {
   return (
-    <div className="singlePost">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="singlePost"
+    >
       <div className="singlePostWrapper">
         <img src={Motorcycle} alt="" className="singlePostImg" />
         <h1 className="singlePostTitle">
@@ -63,6 +69,6 @@ export default function SinglePost() {
           asdasdasdasdasdasdsadsadsadsadasdsaddsdasdsa
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }

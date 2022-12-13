@@ -3,11 +3,11 @@
 }
 
 .writeImg {
-    margin-left: 150px;
-    width: 70vw;
-    height: 250px;
-    border-radius: 10px;
-    object-fit: cover;
+  margin-left: 150px;
+  width: 81vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .writeForm {
@@ -51,11 +51,19 @@
 .writeSubmit {
   position: absolute;
   top: 20px;
-  right: 50px;
+  right: 94px;
   color: white;
   background-color: lightseagreen;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+}
+
+.editor {
+  width: 70rem;
+  margin-left: 13%;
+  margin-top: 50px;
+  border-style: solid;
+  height: 40vh;
 }

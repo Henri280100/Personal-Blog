@@ -33,10 +33,26 @@
   -webkit-box-pack: center;
   justify-content: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .cardName {
-  text-align: center;
-  font-family: var(--font);
+  font-family: "Lora", serif;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
 }
 
+.cardSlideButton {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 5px;
+  justify-content: center;
+  margin-left: 2.7rem;
+  background-color: #444;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}

@@ -1,11 +1,18 @@
 import React from "react";
 import "./write.css";
-import CoverImg from '../../assets/header-img.jpg';
+import CoverImg from "../../assets/header-img.jpg";
+import { motion } from "framer-motion";
+import TextEditor from "../../components/texteditor/TextEditor";
 
-export default function Write() {
+export default function Write({ props }) {
   return (
-    <div className="write">
-        <img className="writeImg" src={CoverImg} alt="" />
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="write"
+    >
+      <img className="writeImg" src={CoverImg} alt="" />
       <form action="" className="writeForm">
         <div className="writeFormGroup">
           <label htmlFor="fileInput">
@@ -20,15 +27,11 @@ export default function Write() {
             autoFocus={true}
           />
         </div>
-        <div className="writeFormGroup">
-          <textarea
-            placeholder="Tell your story..."
-            type="text"
-            className="writeInput writeText"
-          ></textarea>
-        </div>
         <button className="writeSubmit">Publish</button>
       </form>
-    </div>
+      <div className="editor">
+        <TextEditor />
+      </div>
+    </motion.div>
   );
 }

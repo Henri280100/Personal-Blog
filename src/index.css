@@ -2,9 +2,17 @@ html {
   scroll-behavior: smooth;
 }
 
+
 :root {
-  --color-bg: rgba(0, 0, 0, 0.8);
-  --font: "Josefin Sans", sans-serif;
+  --color-bg: #1f1f38;
+  --color-bg-variant: rgba(0, 0, 0, 0.5);
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-dark-pink: #551b54;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  --transition: all 400ms ease;
 }
-
-

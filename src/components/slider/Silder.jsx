@@ -42,7 +42,6 @@ export default function Silder({ data }) {
     <img src={RightArrow} alt="nextArrow" {...props} />
   );
 
-  
   const settings = {
     arrows: true,
     infinite: true,
@@ -72,7 +71,9 @@ export default function Silder({ data }) {
                   className="cardImage"
                   style={item.style}
                 />
-                <p className="cardName">{item.title}</p>
+                <button className="cardSlideButton">
+                  <p className="cardName">{item.title}</p>
+                </button>
               </div>
             );
           })}

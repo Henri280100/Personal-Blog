@@ -22,41 +22,40 @@
 }
 
 .singlePostEdit {
-    float: right;
-    font-size: 16px;
+  float: right;
+  font-size: 16px;
 }
 
 .singlePostIcon {
-    margin-left: 10px;
-    cursor: pointer;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .singlePostIcon:first-child {
-    color: teal;
+  color: teal;
 }
 
 .singlePostIcon:last-child {
-    color: tomato;
+  color: tomato;
 }
 
 .singlePostInfo {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    color: #b39656;
-    font-family: "Varela Round", sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #b39656;
+  font-family: "Varela Round", sans-serif;
 }
 
 .singlePostDesc {
-    color: #666;
-    font-size: 18px;
-    line-height: 25px;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .singlePostDesc::first-letter {
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: 600px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600px;
 }
-
